@@ -6,7 +6,7 @@ number = random.randint(1, 100)
 def intro():
     print("What is your Name?: ")
     name = input()
-    print(name + ", we are going to play a game. I am thinking of a number between 1 ans 200")
+    print(name + ", we are going to play a game. I am thinking of a number between 1 and 100")
     time.sleep(.5)
     print("Go ahead. Guess!!")
 
